@@ -67,7 +67,7 @@ mCreate = MetodosCreate(hs)
 p1 = hs.Paciente("Jose", "Jose Jose", "1111A", "", False)
 p2 = hs.Paciente("Maria", "Maria Maria", "2222B", "", False)
 p3 = hs.Paciente("Pepa", "Pepa Pepa", "3333C", "", False)
-p4 = hs.Paciente("Antonio", "Antonio Antonio", "4444D", "", False)
+p4 = hs.Paciente("Antonio ", "Antonio Antonio", "4444D", "", False)
 
 sala_de_espera = [p1, p2, p3, p4]
 mCreate.motrar_sala_espera(sala_de_espera)

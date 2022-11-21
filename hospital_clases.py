@@ -50,7 +50,7 @@ class Enfermeros(Persona):
         print("Se ha creado el usuario : ", nombre)
 
     def fichar(dia, hora_entrada, hora_salida):
-        print("El dia ", dia, "ha entrado ", hora_entrada, " y ha salido ", hora_salida)
+        print(" El dia ", dia, "ha entrado ", hora_entrada, " y ha salido ", hora_salida)
 
 
 # Clase Enfermos con herencia de persona
